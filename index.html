@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coldplay</title>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/flexboxgrid.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+</head>
+<body class="homepage">
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <a href="index.html"><img class="logo" src="./assets/images/coldplay-logo.gif" alt="Coldplay text logo" /></a>
+          <div id="MenuIcon" class="mobile-menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <nav id="MainMenu" class="col-xs-12 col-sm-8">
+          <a href="about.html">About</a>
+          <a href="discography.html">Discography</a>
+          <a href="media.html">Media</a>
+          <a href="merch.html">Merch</a>
+          <a href="tour-dates.html">Tour Dates</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="video-overlay">
+    <img class="home-logo animate-fader" src="./assets/images/home/coldplay-logo-white.png" alt="Coldplay White Logo"/>
+    <video class="video-container" autoplay loop preload="none" poster="./assets/images/home/falling-stars2.gif">
+      <source src="./assets/images/home/home.webm" type="video/webm"></source>
+      <source src="./assets/images/home/home.mp4" type="video/mp4"></source>
+    </video>
+  </div>
+</body>
+<script src="./assets/javascripts/jquery-3.3.1.min.js"></script>
+<script src="./assets/javascripts/lodash.js"></script>
+<script src="./assets/javascripts/mobile-menu.js"></script>
+</html>

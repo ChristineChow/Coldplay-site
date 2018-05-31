@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coldplay</title>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/flexboxgrid.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <a href="index.html"><img class="logo" src="./assets/images/coldplay-logo.gif" alt="Coldplay text logo" /></a>
+          <div id="MenuIcon" class="mobile-menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <nav id="MainMenu" class="col-xs-12 col-sm-8">
+          <a href="about.html">About</a>
+          <a href="discography.html">Discography</a>
+          <a href="media.html">Media</a>
+          <a class="active" href="merch.html">Merch</a>
+          <a href="tour-dates.html">Tour Dates</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="page-banner merch-banner">
+      <h1 class="secondary-font banner-title">Merch Store</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ul class="merch-controls">
+            <li data-filter="all">
+              <button class="merch-ctrl-btn active all-icon" onclick="filterSelection('all')">All Poducts</button>
+            </li>
+            <li data-filter="clothing">
+              <button class="merch-ctrl-btn clothing-icon" onclick="filterSelection('clothing')">
+                <span>Clothing</span>
+              </button>
+            </li>
+            <li data-filter="posters-and-prints">
+              <button class="merch-ctrl-btn posters-and-prints-icon">
+                <span>Posters and Prints</span>
+              </button>
+            </li>
+            <li data-filter="accessories">
+              <button class="merch-ctrl-btn accessories-icon">
+                <span>Accessories</span>
+              </button>
+            </li>
+            <li data-filter="music-and-film">
+              <button class="merch-ctrl-btn music-and-film-icon">
+                <span>Music and Film</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="filtr-container row">
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="clothing" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/parachutes-shirt.jpg"
+            alt="Parachutes t-shirt"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="clothing" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/rush-of-blood-shirt.jpg"
+            alt="A Rush of Blood to the Head t-shirt"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="clothing" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/x-y-shirt.jpg"
+            alt="X&Y t-shirt"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="clothing" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/viva-la-vida-shirt.jpg"
+            alt="Viva la Vida t-shirt"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="posters-and-prints" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/poster.jpg"
+            alt="Poster"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="accessories" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/parachutes-cup.jpg"
+            alt="Parachutes cup"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="accessories" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/rush-of-blood-cup.jpg"
+            alt="A Rush of Blood to the Head cup"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="accessories" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/x-y-cup.jpg"
+            alt="X&Y cup"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="accessories" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/viva-la-vida-cup.jpg"
+            alt="Viva la Vida cup"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="clothing" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/viva-la-vida-hat.jpg"
+            alt="Viva la Vida cup"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="accessories" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/viva-la-vida-bag.jpg"
+            alt="X&Y cup"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="music-and-film" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/parachutes-vinyl.jpg"
+            alt="Parachutes vinyl"
+          />
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="music-and-film" data-sort="value">
+        <img
+          class="image-responsive"
+          src="./assets/images/merch/rush-of-blood-vinyl.jpg"
+          alt="A Rush of Blood to the Head vinyl"
+        />
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="music-and-film" data-sort="value">
+      <img
+        class="image-responsive"
+        src="./assets/images/merch/x-y-vinyl.jpg"
+        alt="X&Y vinyl"
+      />
+    </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 filtr-item --sold-out" data-category="music-and-film" data-sort="value">
+          <img
+            class="image-responsive"
+            src="./assets/images/merch/viva-la-vida-vinyl.jpg"
+            alt="Viva la Vida vinyl"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="./assets/javascripts/jquery-3.3.1.min.js"></script>
+<script src="./assets/javascripts/jquery.filterizr.min.js"></script>
+<script src="./assets/javascripts/lodash.js"></script>
+<script src="./assets/javascripts/mobile-menu.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.filtr-container').filterizr({});
+    $('.merch-ctrl-btn').click(function(){
+      if($(this).hasClass('active')){
+        return false;
+      } else {
+        $('.merch-ctrl-btn').removeClass('active');
+        $(this).addClass('active');
+      }
+    })
+  });
+</script>
+
+</html>
